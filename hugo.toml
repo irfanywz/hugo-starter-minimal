@@ -1,0 +1,18 @@
+baseURL = "https://example.github.io/"
+title = "Hugo Starter"
+defaultContentLanguage = "id"
+
+# Situs satu halaman: hanya beranda (content/_index.md).
+disableKinds = ["taxonomy", "term", "section", "RSS"]
+
+[languages.id]
+  label = "Indonesia"
+  locale = "id"
+  weight = 1
+
+[params]
+  description = "Starter minimal Hugo + Tailwind CSS + Alpine.js"
+
+[markup.goldmark.renderer]
+  # izinkan HTML mentah (termasuk atribut Alpine) di dalam file .md
+  unsafe = true

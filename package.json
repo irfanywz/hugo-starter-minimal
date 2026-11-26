@@ -1,0 +1,23 @@
+{
+  "name": "hugo-starter-minimal",
+  "version": "1.0.0",
+  "description": "Starter minimal: Hugo + Tailwind CSS v4 + Alpine.js, satu halaman",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --watch",
+    "build": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --minify",
+    "start": "node scripts/dev.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "@tailwindcss/typography": "^0.5.16",
+    "alpinejs": "^3.15.4",
+    "tailwindcss": "^4.1.18"
+  }
+}

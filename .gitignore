@@ -1,0 +1,15 @@
+# Hugo
+public/
+resources/
+.hugo_build.lock
+
+# Node
+node_modules/
+
+# CSS hasil build Tailwind (dibuat oleh `npm run build` / `npm start`)
+assets/css/output.css
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store

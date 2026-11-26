@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Lokasi yang dipindai Tailwind untuk class (relatif dari file ini) */
+@source "../../content";
+@source "../../layouts";
